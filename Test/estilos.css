@@ -1,0 +1,200 @@
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.contenedor{
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+	max-width: 2000px;
+}
+.main{
+	width: 80%;
+	padding: 20px;
+}
+
+.main img{
+	width: 100%;
+	height: auto;
+}
+
+
+body, .sagaa {
+	background-image: url(https://us.123rf.com/450wm/yamabikay/yamabikay1703/yamabikay170300301/74291261-color-azul-oscuro-del-fondo-textura-de-alta-calidad-en-alta-resoluci%C3%B3n.jpg);
+	font-family: 'Roboto', sans-serif;
+	width: 100%;
+}
+
+a {
+	text-decoration: none;
+}
+
+.hero {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: calc(100vh - 60px);
+	color: gold;
+}
+
+.hero h1 {
+	font-size: 80px;
+}
+
+.hero p {
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+nav {
+	background-image: url(https://th.bing.com/th/id/OIP.aDZaz8OokAEthF2zsCuSNAHaD6?pid=ImgDet&rs=1);
+	color: red;
+	height: 80px;
+	display: flex;
+	position: sticky;
+	top: 0;
+	overflow: hidden;
+}
+
+
+nav a{
+	flex: 1;
+	height: 100%;
+	text-transform: uppercase;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	color: #000;
+	transition: .2s ease-in-out all;
+	font-weight: 500;
+}
+	nav a:hover{
+		background: #293f51;
+	}
+
+.seccion {
+	min-height: 100vh;
+	max-width: 800px;
+	width: 90%;
+	margin: auto;
+	padding: 30px;
+
+	padding-top: 120px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.seccion .card {
+	background: yellow;
+	height: 90%;
+	padding: 40px;
+	border-radius: 5px;
+	
+}
+
+.seccion h1 {
+	font-size: 48px;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: black;
+}
+
+.seccion p {
+	line-height: 38px;
+	margin-bottom: 40px;
+	color: #494949;
+	font-size: 20px;
+}
+
+.seccion img {
+	width: 100%;
+	vertical-align: top;
+	margin-bottom: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+
+@media screen and (max-width: 800px) {
+	.main {
+		width: 100%;
+	}
+	.aside{
+		width: 100%;
+	}
+}
+
+/*historia */ 
+@media only screen and (max-width:  650px){
+		.menu{
+		flex-direction: column;
+		flex-wrap: wreap;
+		align-items: center;
+ 	}
+	.menu2{
+		flex-direction: column;
+		flex-wrap: wr
+		ap;
+		align-items: center;
+	}
+	.titulos{
+		font-size:30px ;
+		flex-direction: column;
+		flex-wrap: wrap;
+		align-items: center;
+	}
+    .titulo1{
+    	font-size: 30px;
+    	flex-wrap: wrap;
+    	align-items: center;
+    }
+}
+
+@media screen and (max-width: 400px) {
+	.contenedor{
+		width: 100%;
+	}
+	.aside{
+		display: none;
+	}
+}
+/*PARTE INICIO*/
+
+.entrada {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: calc(100vh - 60px);
+	color: gold;
+}
+
+
+.Historieta{
+	background-image: url(https://fb.ru/media/i/2/0/4/2/9/4/5/i/2042945.jpg);
+}
+.entrada h1{
+	font-size: 80px;
+}
+.entrada p{
+	font-size: 30px;
+	text-transform: uppercase;
+}
+.main-footer{
+	width: 100%;
+	padding: 50px 0px;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	color: white;
+}

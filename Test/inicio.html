@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maxium-scale=1.0, minium-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="estilos.css">
+	<title>Slider Nav</title>
+</head>
+<body class="Historieta">
+	<div class="contenedor">
+	<div class="entrada">
+		<h1 class="titulo1">HISTORIA</h1>
+		<p style="color: white;">Dirigirte a <a style="color: red" href="index.html">Saga</a></p>
+
+	</div>
+	<div>
+
+		<nav class="menu2">
+			<a style="color: red;" href="#7">Historia</a>
+			<a style="color: red;" href="#6">Creación</a>
+		</nav>
+		<section class="main">
+
+	</div>
+	<div class="secciones">
+		<aside>
+		<div class="seccion" id="7">
+			<div class="card">
+
+				<h1 class="titulos">Historia</h1>
+				<img src="img/7.jpeg" alt="">
+				<section class="main">
+
+				<p>Batman (inicialmente The Bat-Man) es un personaje creado por Bob Kane y Bill Finger, y apareció por primera vez en «El caso del sindicato químico», de la revista Detective Comics n.º 27, publicada en mayo de 1939 por la editorial National Publications. Por su buena aceptación, obtuvo su propia revista en 1940 y apens 3 años después, Columbia Pictures estrenó la primera adaptación para la televisión del personaje, a la que le siguió la serie Batman y Robin, en 1949 y por último, en 1960 se lanzó la clásica serie Batman. Posteriormente, los escritores Dennis O’Neil, Neal Adams y Frank Miller ampliaron el universo de Batman entre los años 1970 y 1980, y para hacerlo, retomaron el diseño y elementos originales de la franquicia, lo que finalmente lo transformó en el ícono del cómic que es hoy. Por supuesto, las películas de Tim Burton y la trilogía de Christopher Nolan terminaron por consagrar a este superhéroe sin superpoderes. Pero dejemos este resumen hasta aquí y comencemos a revisar la historia de este maravilloso personaje de DC Comics.
+
+La identidad secreta de Batman es Bruce Wayne, un empresario multimillonario y filántropo de Gotham City. Después de ser testigo del asesinato de sus padres cuando era niño, jura vengarse y combatir la delincuencia para lo cual se somete a un riguroso entrenamiento físico y mental. Adopta el diseño de un murciélago para su vestimenta, sus utensilios de combate y sus vehículos. A diferencia de otros superhéroes, no tiene superpoderes y recurre a su intelecto, así como a aplicaciones científicas y tecnológicas para crear armas y herramientas con las cuales lleva a cabo sus actividades. Vive en la mansión Wayne, en cuyos subterráneos se encuentra la Batcave. Entre sus aliados se cuentan Robin, Batgirl (posteriormente Oráculo), Nightwing, el oficial James Gordon y su mayordomo, Alfred Pennyworth. </p>
+			</div>
+
+		</div>
+		<div class="seccion" id="6">
+			<div class="card">
+				<h1 class="titulos">Creación</h1>
+				<img src="img/6.jpg" alt="">
+				<p>Batman es un superhéroe de cómic co-creado por el artista Bob Kane y el escritor Bill Finger y publicado por DC Comics. El personaje hizo su primera aparición en Detective Comics #27 (mayo de 1939). Batman es la identidad secreta de Bruce Wayne, un empresario multimillonario, galán y filántropo. Presenció el asesinato de sus padres cuando era niño lo marcó profundamente y lo llevó a entrenarse en la perfección física e intelectual para ponerse un disfraz de murciélago con el fin de combatir el crimen. Batman trabaja en Ciudad Gótica, con la asistencia de varios personajes de apoyo, incluidos su compañero Robin y su mayordomo Alfred Pennyworth.
+
+A diferencia de la mayoría de los superhéroes, él no posee superpoderes, sino que hace uso de la inteligencia, habilidades de detective, la ciencia y la tecnología, su riqueza, su fuerza física y la intimidación en su guerra contra el crimen.
+
+Batman se convirtió en un personaje popular poco después de su introducción y, finalmente, ganó su propio título, Batman. Las décadas pasaron, y diferentes personajes surgieron. A finales de 1960 la serie de televisión Batman utilizo una estética cómica que quedó asociado con el personaje durante años. Varios creadores trabajaron para devolverle al personaje sus raíces oscuras, que culminó en la miniserie de Batman de 1986 El Regreso del Caballero Oscuro, escrita por Frank Miller. Eso y el éxito de la película de 1989 Batman ayudaron a reavivar el interés popular en el personaje. Un icono cultural, Batman ha sido adaptado a una gran variedad de medios de comunicación, desde la radio a la televisión y el cine.</p>
+			</div>	
+		</div>
+		</aside>
+		</section>
+	</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 2000, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+		<footer class="main-footer">TODOS LOS DERECHOS DE TECNICA 2</footer>
+</body>
+</html>
